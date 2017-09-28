@@ -10,3 +10,6 @@ https://www.setmore.com/
 
 Master branche ipushintos svetaines adresas:
 http://bakenbardai-static.herokuapp.com/index.html
+
+Bent landing page template:
+http://templates24.org/download/1936
