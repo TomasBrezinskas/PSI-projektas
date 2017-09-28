@@ -68,25 +68,6 @@
     <section class="header parallax home-parallax page" id="HOME">
         <h2></h2>
         <div class="section_overlay">
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">
-                            <img src="images/logo.png" alt="Logo">
-                        </a>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container- -->
-            </nav>
 
             <div class="container home-container">
                 <div class="row">
@@ -98,7 +79,9 @@
 
                             <div class="download-btn">
                             <!-- BUTTON -->
-                                <a class="btn home-btn wow fadeInLeft" href="calendar/index.html">Learn more</a>
+                                <a class="btn home-btn wow fadeInLeft" href="calendar/index.html">See Calendar</a>
+                                <a class="btn home-btn wow fadeInLeft" href="#SIGNUP">Sign Up</a>
+                                <a class="tuor btn wow fadeInRight" href="#ABOUT">Look around<i class="fa fa-angle-down"></i></a>
                             </div>
                         </div>
                     </div>
@@ -109,96 +92,98 @@
 
     <!-- END HEADER SECTION -->
 
-
-
-
  <!-- =========================
      START ABOUT US SECTION
 ============================== -->
 
 
+    <!-- START SIGNUP SECTION -->
+    <section class="about page" id="ABOUT">
+        <div class="section_overlay">
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1 wow bounceIn">
+                    <!-- Start Contact Section Title-->
+                    <div class="section_title">
+                        <h2>Search for Services</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact_form wow bounceIn">
+                <div class="container">
+
+                <!-- START ERROR AND SUCCESS MESSAGE -->
+                    <div class="form_error text-center">
+                        <div class="message_error hide error">Please Enter Your Search</div>
+                    </div>
+                    <div class="Sucess"></div>
+                <!-- END ERROR AND SUCCESS MESSAGE -->
+
+                <!-- CONTACT FORM starts here, Go to contact.php and add your email ID, thats it.-->
+                    <form role="form" action="contact.php">
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <textarea class="form-control" id="message" rows="1" cols="10" placeholder=" Search for services..."></textarea>
+                                <button type="button" class="btn btn-default submit-btn form_submit">SEARCH</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- END FORM -->
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- End About Us -->
 
+    <section class="contact page" id="SIGNUP">
+        <div class="section_overlay">
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1 wow bounceIn">
+                    <!-- Start Contact Section Title-->
+                    <div class="section_title">
+                        <h2>Sign Up</h2>
+                    </div>
+                </div>
+            </div>
 
+            <div class="contact_form wow bounceIn">
+                <div class="container">
 
+                <!-- START ERROR AND SUCCESS MESSAGE -->
+                    <div class="form_error text-center">
+                        <div class="name_error hide error">Please Enter your name</div>
+                        <div class="email_error hide error">Please Enter your Email</div>
+                        <div class="email_val_error hide error">Please Enter a Valid Email Address</div>
+                        <div class="message_error hide error">Please Enter Your Message</div>
+                    </div>
+                    <div class="Sucess"></div>
+                <!-- END ERROR AND SUCCESS MESSAGE -->
 
- <!-- =========================
-     START TESTIMONIAL SECTION
-============================== -->
+                <!-- CONTACT FORM starts here, Go to contact.php and add your email ID, thats it.-->
+                    <form role="form" action="contact.php">
+                        <div class="row">
 
+                            <div class="col-md-12">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
 
-
-
-    <!-- END TESTIMONIAL SECTION -->
-
-
-
-<!-- =========================
-     START FEATURES
-============================== -->
-    <!-- END FEATURES SECTION -->
-
-
-
-<!-- =========================
-     START CALL TO ACTION
-============================== -->
-
-    <!-- END CALL TO ACTION -->
-
-
-<!-- =========================
-     Start APPS SCREEN SECTION
-============================== -->
-
-
-
-    <!-- ENS APPS SCREEN -->
-
-
-
-
-
-<!-- =========================
-     Start FUN FACTS
-============================== -->
-
-
-
-    <!-- END FUN FACTS -->
-
-
-
+                            <div class="col-md-4 col-md-offset-4">
+                                <button type="button" class="btn btn-default submit-btn form_submit">SIGN UP</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- END FORM -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SIGNUP SECTION -->
 
 <!-- =========================
-     START DOWNLOAD NOW 
-============================== -->
-    <!-- END DOWNLOAD -->
-
-<!-- =========================
-     START CONTCT FORM AREA
-============================== -->
-    <!-- END CONTACT -->
-
-<!-- =========================
-     Start Subscription Form 
-============================== -->
-
-
-
-
-    <!-- END SUBSCRIPBE FORM -->
-
-
-<!-- =========================
-     FOOTER 
-============================== -->
-
-    <!-- END FOOTER -->
-
-
-<!-- =========================
-     SCRIPTS 
+     SCRIPTS
 ============================== -->
 
 
